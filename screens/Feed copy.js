@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-export default class CreateStory extends Component {
+export default class profile extends Component {
     render() {
         return (
             <View
@@ -10,7 +10,7 @@ export default class CreateStory extends Component {
                     justifyContent: "center",
                     alignItems: "center"
                 }}>
-                <Text>Create Story</Text>
+                <Text>profile</Text>
             </View>
         )
     }
